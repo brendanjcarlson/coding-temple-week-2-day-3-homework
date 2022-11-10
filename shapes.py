@@ -36,7 +36,7 @@ def circumference(r):
     if not isinstance(r, (int, float)):
         return "Radius must be of type int or float"
 
-    return round(math.pi * (r ** 2), decimal_places)
+    return round(math.pi * (r * 2), decimal_places)
 
 
 def area(s, x='1', y='1'):
